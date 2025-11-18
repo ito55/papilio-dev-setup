@@ -49,11 +49,15 @@ Papilio Proは古のFPGAボードであるため、最新のWindows環境で開�
     - Seleted layouts の下にあるボタン "Add"
     - CountryでJapanを選択 - ボタン "Add"
     - Seleted layouts にある選択肢にJapaneseが加わったことを確認してEnglish (US) をRemove
--   **copy & paste修正
-    -   Guest Additionsで、Guest OS...
--   **共有フォルダの設定
-    -   ...
-
+- copy & paste修正
+  > [!NOTE]
+  > コピペが途中で切れてしまったりする問題を解決
+    - Virtual Box の menu "Devices" から Insert Guest Additions CD image... を選択
+    ![Guest Additions CDイメージの挿入](images/screenshot_guestadditions.png)
+    - mountされたら自動実行するかと聞かれるので同意する
+    - passwordを聞かれるので [UG1227](https://docs.xilinx.com/v/u/en-US/ug1227-ise-vm-windows10) で示されているxilinxと入力
+    - これでinstallが進み、終わって何かkeyを押すとwindowが閉じる
+    - 再起動する
 
 
 ### Step 3: 他
