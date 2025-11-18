@@ -57,6 +57,7 @@ Papilio Proは古のFPGAボードであるため、最新のWindows環境で開�
     - mountされたら自動実行するかと聞かれるので同意する
     - passwordを聞かれるので [UG1227](https://docs.xilinx.com/v/u/en-US/ug1227-ise-vm-windows10) で示されているxilinxと入力
     - これでinstallが進み、終わって何かkeyを押すとwindowが閉じる
+    - CD image を右クリックして Eject を選択
     - 再起動する
 
 
