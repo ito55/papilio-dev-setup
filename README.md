@@ -39,10 +39,16 @@ Papilio Proは古のFPGAボードであるため、最新のWindows環境で開�
 
 快適にするための工夫
 
-*(ここに、VMのネットワーク設定、USBデバイスの認識方法、共有フォルダの設定など、UG1227だけでは分かりにくいポイントを具体的に記述します。スクリーンショットを `images` フォルダに入れて貼り付ける予定。)*
-
--   **日本語keyboard対応
-    -   ...
+- 日本語keyboard対応
+  
+  > [!NOTE]
+  > ここで言う「日本語keyboard対応」とは、日本語入力(IME)のことではなく、記号などのキー配列を日本語キーボードに合わせるための設定を指します。例えば、`Shift` + `9` を押したときに `(` ではなく `)` が入力されてしまう、といった問題を解消します。
+    - Guest OSのtask barの System - Preferences - Keyboard
+    - タブ Layouts
+    - Check box "Separate layout for each window" のチェックを外す
+    - Seleted layouts の下にあるボタン "Add"
+    - CountryでJapanを選択 - ボタン "Add"
+    - Seleted layouts にある選択肢にJapaneseが加わったことを確認してEnglish (US) をRemove
 -   **copy & paste修正
     -   Guest Additionsで、Guest OS...
 -   **共有フォルダの設定
