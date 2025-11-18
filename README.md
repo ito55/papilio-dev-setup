@@ -32,6 +32,10 @@ Papilio Proは古のFPGAボードであるため、最新のWindows環境で開�
 - ISE 14.7 VM を download (AMD account登録が必要) して展開
 - xsetup.exe を実行
     - このinstallの過程でhost OSであるWindowsとVirtual Box内Virtual Machineの共有フォルダを作成できる。やっておくのがおすすめ。
+
+これでとりあえずinstall完了。
+windowsのstart menuのXilinxグループにある Project Navigator をクリックすると Virtual Machine が起動する。
+
 - time zoneを設定
     - 設定変更した瞬間に反映されるわけではなさそう。再起動したら反映された。
 
