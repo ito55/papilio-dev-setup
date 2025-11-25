@@ -29,11 +29,12 @@ Papilio Proは古のFPGAボードであるため、最新のWindows環境で開�
 はじめに、Xilinxの公式ドキュメント [UG1227](https://docs.xilinx.com/v/u/en-US/ug1227-ise-vm-windows10) に従って、ISE 14.7 VMのダウンロードと基本的なセットアップを完了させてください。大まかな流れは下記です。
 
 - Oracle VirtualBox を install
-- ISE 14.7 VM を download (AMD account登録が必要) して展開
+- ISE 14.7 VM のzipファイルを download (AMD account登録が必要) して展開
 - xsetup.exe を実行
     - このinstallの過程でhost OSであるWindowsとVirtual Box内Virtual Machineの共有フォルダを作成できる。やっておくのがおすすめ。
 
 これでとりあえずinstall完了。
+downloadしたzipファイルと、それを展開したものはもう不要なので削除してOK。
 windowsのstart menuのXilinxグループにある Project Navigator をクリックすると Virtual Machine が起動する。
 
 - time zoneを設定
