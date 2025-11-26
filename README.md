@@ -18,7 +18,7 @@ Papilio Proは古のFPGAボードであるため、最新のWindows環境で開�
 
 ## 前提条件
 
--    Windows 11 がインストールされたPC
+-   Windows 11 がインストールされたPC
 -   Papilio Pro FPGA モジュール
 -   [Oracle VM VirtualBox](https://www.virtualbox.org/) がインストール済みであること
 
@@ -38,6 +38,7 @@ downloadしたzipファイルと、それを展開したものはもう不要な
 windowsのstart menuのXilinxグループにある Project Navigator をクリックすると Virtual Machine が起動する。
 
 - time zoneを設定
+    -  [UG1227](https://docs.xilinx.com/v/u/en-US/ug1227-ise-vm-windows10) で示されている通りにtimezoneを設定
     - 設定変更した瞬間に反映されるわけではなさそう。再起動したら反映された。
 
 ### Step 2: カスタマイズ
@@ -60,7 +61,7 @@ windowsのstart menuのXilinxグループにある Project Navigator をクリ�
     - Virtual Box の menu "Devices" から Insert Guest Additions CD image... を選択
     ![Guest Additions CDイメージの挿入](images/screenshot_guestadditions.png)
     - mountされたら自動実行するかと聞かれるので同意する
-    - passwordを聞かれるので [UG1227](https://docs.xilinx.com/v/u/en-US/ug1227-ise-vm-windows10) で示されているxilinxと入力
+    - passwordを聞かれるので [UG1227](https://docs.xilinx.com/v/u/en-US/ug1227-ise-vm-windows10) で示されている通り xilinx と入力
     - これでinstallが進み、終わって何かkeyを押すとwindowが閉じる
     - CD image を右クリックして Eject を選択
     - 再起動する
