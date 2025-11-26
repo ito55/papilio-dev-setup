@@ -62,7 +62,7 @@ windowsのstart menuのXilinxグループにある Project Navigator をクリ�
     ![Guest Additions CDイメージの挿入](images/screenshot_guestadditions.png)
     - mountされたら自動実行するかと聞かれるので同意する
     - passwordを聞かれるので [UG1227](https://docs.xilinx.com/v/u/en-US/ug1227-ise-vm-windows10) で示されている通り xilinx と入力
-    - これでinstallが進み、終わって何かkeyを押すとwindowが閉じる
+    - これでinstallが進み、終わって Return key を押すとwindowが閉じる
     - CD image を右クリックして Eject を選択
     - 再起動する
 
